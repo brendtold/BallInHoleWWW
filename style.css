@@ -1,0 +1,90 @@
+/*
+0a86d4
+445297
+*/
+
+html, body {
+	padding:0;
+	margin:0;
+	font-size: 16px;
+	font-family: Tahoma;
+	color:#fff;
+	height:100%;
+}
+
+header,
+canvas,
+footer {
+	display: block;
+}
+
+header, 
+footer {
+	position: absolute;
+	height:50px;
+	width:50%;
+	margin-left:25%;
+
+	background:rgba(0, 0, 0, 0.5);
+	font-size:2em;
+	text-align: center;
+}
+
+header {
+	top:0px;	
+}
+
+canvas {
+	background:#445297;
+	position: relative;
+}
+
+footer {
+	bottom:0px;
+}
+
+#play,
+#pause,
+#stop {
+	background-repeat:no-repeat;
+	background-size:auto 75%;
+	background-position:center;
+}
+
+.button {
+	display: block;
+	background:;
+	height:92%;
+	margin-top:1%;
+
+	text-align: center;
+	font-weight: bold;
+}
+
+.button:hover {
+	background:rgba(0, 0, 0, 0.3);	
+}
+
+.button:active {
+	background:rgba(0, 0, 0, 0.5);		
+}
+
+#play {
+	background-image:url('play.png');
+}
+
+#pause {
+	background-image:url('pause.png');
+}
+
+#stop {
+	background-image:url('stop.png');
+}
+
+
+@media screen and (max-width: 360px) {
+	footer, header {
+		width:96%;
+		margin-left:2%;
+	}
+}

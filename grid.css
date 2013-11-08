@@ -1,0 +1,320 @@
+/********************************************************************************************/
+/* @file			grid.css
+/* @author			Brent Roose
+/* @date			24/10/2012
+/* @author			Jelmer Prins
+/* @date			25/05/2012
+/* REPEAT THE ABOVE FOR EACH AUTHOR
+/* @description		In this file all the css is found for the global grid system
+/********************************************************************************************/
+
+/********************************************************************************************/
+/* GLOBAL GRID SETTINGS
+/********************************************************************************************/
+
+/* fix for form elements sizing wrong, not supported by all browsers */
+*,
+input.w1,
+input.w2,
+input.w3,
+input.w4,
+input.w5,
+input.w6,
+input.w7,
+input.w8,
+input.w9,
+input.w10,
+input.w11,
+input.w12,
+input.w13,
+input.w14,
+input.w15,
+input.w16,
+input.w5v3,
+select.w1,
+select.w2,
+select.w3,
+select.w4,
+select.w5,
+select.w6,
+select.w7,
+select.w8,
+select.w9,
+select.w10,
+select.w11,
+select.w12,
+select.w13,
+select.w14,
+select.w15,
+select.w16,
+select.w5v3,
+textarea.w1,
+textarea.w2,
+textarea.w3,
+textarea.w4,
+textarea.w5,
+textarea.w6,
+textarea.w7,
+textarea.w8,
+textarea.w9,
+textarea.w10,
+textarea.w11,
+textarea.w12,
+textarea.w13,
+textarea.w14,
+textarea.w15,
+textarea.w16,
+textarea.w5v3 {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/********************************************************************************************/
+/* MARGIN GRID */
+/********************************************************************************************/
+/* top margin */
+.mt0 {margin-top:0% !important;}
+.mt1 {margin-top:7.25% !important;}
+.mt2 {margin-top:13.50% !important;}
+.mt3 {margin-top:19.75% !important;}
+.mt4 {margin-top:26.00% !important;}
+/* MERGE ERROR WITH .mt5 PIXEL GRID
+.mt5 {margin-top:32.25% !important;}
+*/
+.mt6 {margin-top:38.50% !important;}
+.mt7 {margin-top:44.75% !important;}
+.mt8 {margin-top:51.00% !important;}
+.mt9 {margin-top:57.25% !important;}
+.mt10 {margin-top:63.50% !important;}
+.mt11 {margin-top:69.75% !important;}
+.mt12 {margin-top:76.00% !important;}
+.mt13 {margin-top:82.25% !important;}
+.mt14 {margin-top:88.50% !important;}
+.mt15 {margin-top:94.75% !important;}
+
+/* left margin */
+.ml0 {margin-left:0% !important;}
+.ml0_5 {margin-left:3.625% !important;}
+.ml1 {margin-left:7.25% !important;}
+.ml2 {margin-left:13.50% !important;}
+.ml3 {margin-left:19.75% !important;}
+.ml4 {margin-left:26.00% !important;}
+.ml5 {margin-left:32.25% !important;}
+.ml6 {margin-left:38.50% !important;}
+.ml7 {margin-left:44.75% !important;}
+.ml8 {margin-left:51.00% !important;}
+.ml9 {margin-left:57.25% !important;}
+.ml10 {margin-left:63.50% !important;}
+.ml11 {margin-left:69.75% !important;}
+.ml12 {margin-left:76.00% !important;}
+.ml13 {margin-left:82.25% !important;}
+.ml14 {margin-left:88.50% !important;}
+.ml15 {margin-left:94.75% !important;}
+
+/* bottom margin */
+.mb0 {margin-bottom:0% !important;}
+.mb1 {margin-bottom:7.25% !important;}
+.mb2 {margin-bottom:13.50% !important;}
+.mb3 {margin-bottom:19.75% !important;}
+.mb4 {margin-bottom:26.00% !important;}
+.mb5 {margin-bottom:32.25% !important;}
+.mb6 {margin-bottom:38.50% !important;}
+.mb7 {margin-bottom:44.75% !important;}
+.mb8 {margin-bottom:51.00% !important;}
+.mb9 {margin-bottom:57.25% !important;}
+.mb10 {margin-bottom:63.50% !important;}
+.mb11 {margin-bottom:69.75% !important;}
+.mb12 {margin-bottom:76.00% !important;}
+.mb13 {margin-bottom:82.25% !important;}
+.mb14 {margin-bottom:88.50% !important;}
+.mb15 {margin-bottom:94.75% !important;}
+
+/* right margin */
+.mr0 {margin-right:0% !important;}
+.mr0_5 {margin-right:3.625% !important;}
+.mr1 {margin-right:7.25% !important;}
+.mr2 {margin-right:13.50% !important;}
+.mr3 {margin-right:19.75% !important;}
+.mr4 {margin-right:26.00% !important;}
+.mr5 {margin-right:32.25% !important;}
+.mr6 {margin-right:38.50% !important;}
+.mr7 {margin-right:44.75% !important;}
+.mr8 {margin-right:51.00% !important;}
+.mr9 {margin-right:57.25% !important;}
+.mr10 {margin-right:63.50% !important;}
+.mr11 {margin-right:69.75% !important;}
+.mr12 {margin-right:76.00% !important;}
+.mr13 {margin-right:82.25% !important;}
+.mr14 {margin-right:88.50% !important;}
+.mr15 {margin-right:94.75% !important;}
+
+/********************************************************************************************/
+/* PADDING GRID */
+/********************************************************************************************/
+/* padding top */
+.pt0 {padding-top:0;}
+.pt1 {padding-top:6.25%;}
+.pt2 {padding-top:12.50%;}
+.pt3 {padding-top:18.75%;}
+.pt4 {padding-top:25.00%;}
+.pt5 {padding-top:31.25%;}
+.pt6 {padding-top:37.50%;}
+.pt7 {padding-top:43.75%;}
+.pt8 {padding-top:50.00%;}
+.pt9 {padding-top:56.25;}
+.pt10 {padding-top:62.50%;}
+.pt11 {padding-top:68.75%;}
+.pt12 {padding-top:75.00%;}
+.pt13 {padding-top:81.25%;}
+.pt14 {padding-top:87.50%;}
+.pt15 {padding-top:93.75%;}
+
+/* padding left */
+.pl0 {padding-left:0;}
+.pl1 {padding-left:6.25%;}
+.pl2 {padding-left:12.50%;}
+.pl3 {padding-left:18.75%;}
+.pl4 {padding-left:25.00%;}
+.pl5 {padding-left:31.25%;}
+.pl6 {padding-left:37.50%;}
+.pl7 {padding-left:43.75%;}
+.pl8 {padding-left:50.00%;}
+.pl9 {padding-left:56.25;}
+.pl10 {padding-left:62.50%;}
+.pl11 {padding-left:68.75%;}
+.pl12 {padding-left:75.00%;}
+.pl13 {padding-left:81.25%;}
+.pl14 {padding-left:87.50%;}
+.pl15 {padding-left:93.75%;}
+
+/* padding bottom */
+.pb0 {padding-bottom:0;}
+.pb1 {padding-bottom:6.25%;}
+.pb2 {padding-bottom:12.50%;}
+.pb3 {padding-bottom:18.75%;}
+.pb4 {padding-bottom:25.00%;}
+.pb5 {padding-bottom:31.25%;}
+.pb6 {padding-bottom:37.50%;}
+.pb7 {padding-bottom:43.75%;}
+.pb8 {padding-bottom:50.00%;}
+.pb9 {padding-bottom:56.25;}
+.pb10 {padding-bottom:62.50%;}
+.pb11 {padding-bottom:68.75%;}
+.pb12 {padding-bottom:75.00%;}
+.pb13 {padding-bottom:81.25%;}
+.pb14 {padding-bottom:87.50%;}
+.pb15 {padding-bottom:93.75%;}
+
+/* padding right */
+.pr0 {padding-right:0;}
+.pr1 {padding-right:6.25%;}
+.pr2 {padding-right:12.50%;}
+.pr3 {padding-right:18.75%;}
+.pr4 {padding-right:25.00%;}
+.pr5 {padding-right:31.25%;}
+.pr6 {padding-right:37.50%;}
+.pr7 {padding-right:43.75%;}
+.pr8 {padding-right:50.00%;}
+.pr9 {padding-right:56.25;}
+.pr10 {padding-right:62.50%;}
+.pr11 {padding-right:68.75%;}
+.pr12 {padding-right:75.00%;}
+.pr13 {padding-right:81.25%;}
+.pr14 {padding-right:87.50%;}
+.pr15 {padding-right:93.75%;}
+
+/********************************************************************************************/
+/* WIDTH GRID */
+/********************************************************************************************/
+
+/* settings for all the width classes */
+.w1nm,
+.w2nm,
+.w3nm,
+.w4nm,
+.w5nm,
+.w6nm,
+.w7nm,
+.w8nm,
+.w9nm,
+.w10nm,
+.w11nm,
+.w12nm,
+.w13nm,
+.w14nm,
+.w15nm,
+.w16nm,
+.w1,
+.w2,
+.w3,
+.w4,
+.w5,
+.w6,
+.w7,
+.w8,
+.w9,
+.w10,
+.w11,
+.w12,
+.w13,
+.w14,
+.w15,
+.w16,
+.w80px,
+.w5v3 {
+	float:left;
+	display: inline;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+/* settings for the specific width classes */
+.w1 {width:4.25%;}
+.w2 {width:10.50%;}
+.w3 {width:16.75%;}
+.w4 {width:23.00%;}
+.w5 {width:29.25%;}
+.w6 {width:35.50%;}
+.w7 {width:41.75%;}
+.w8 {width:48.00%;}
+.w9 {width:54.25%;}
+.w10 {width:60.50%;}
+.w11 {width:66.75%;}
+.w12 {width:73.00%;}
+.w13 {width:79.25%;}
+.w14 {width:85.50%;}
+.w15 {width:91.75%;}
+.w16 {width:98.00%;}
+.w100 {width:100%; margin:0;}
+
+/* v3 width classes (#.33) */
+/*! needs more attention */
+.w5v3 {width:31.12%;}
+
+/* width NO MARGIN */
+.w1nm {width:4.25%;}
+.w2nm {width:10.50%;}
+.w3nm {width:16.75%;}
+.w4nm {width:23.00%;}
+.w5nm {width:29.25%;}
+.w6nm {width:35.50%;}
+.w7nm {width:41.75%;}
+.w8nm {width:48.00%;}
+.w9nm {width:54.25;}
+.w10nm {width:60.50%;}
+.w11nm {width:66.75%;}
+.w12nm {width:73.00%;}
+.w13nm {width:79.25%;}
+.w14nm {width:85.50%;}
+.w15nm {width:91.75%;}
+.w16nm {width:98.00%;}
+
+/* THESE ARE USED ONCE OR NOT OFTEN, BUT SHOULD BE INTEGRATED IN A PIXELS GRID */
+.w80px {width:80px !important;}
+.mt5 {margin-top:5px !important;}
+/* clears horizontal padding */
+.nhp {
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
